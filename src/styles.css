@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.active>.page-link, .page-link.active {
+    /* z-index: 3;
+    color: var(--bs-pagination-active-color); */
+    background-color: #023047 !important;
+    border-color: #023047 !important;
+}
+
+.active {
+    @apply bg-[#ffb703];
+}
